@@ -1,8 +1,8 @@
 ---
 version: 2
 plan:
-  project-key: DEMONSTRATION
-  key: NEWDEMONSTRATION
+  project-key: DEMONSTRATIONKEYS
+  key: NEWDEMONSTRATIONKEYS
   name: key demonstration
 stages:
   - Build hull:
