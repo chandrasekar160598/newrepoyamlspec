@@ -1,8 +1,8 @@
 ---
 version: 2
 plan:
-  project-key: DEMONSTRATIONKEYS
-  key: NEWDEMONSTRATIONKEYS
+  project-key: DEMONSTRATIONKEYSDEMO
+  key: NEWDEMONSTRATIONKEYDEMO
   name: key demonstration
 stages:
   - Build hull:
@@ -11,4 +11,4 @@ stages:
 Build:
   tasks:
     - script:
-      - echo 'Hello World!'
+      - echo 'Hello World!' 
