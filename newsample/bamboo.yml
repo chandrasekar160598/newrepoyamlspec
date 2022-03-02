@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: DEMONSTRATION
+  key: Newdemonstration
+  name: key demonstration
+stages:
+  - Build hull:
+    - Build
+
+Build:
+  tasks:
+    - script:
+      - echo 'Hello World!'
